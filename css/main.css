@@ -1,0 +1,218 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    margin: 0 auto;
+    text-align: center;
+}
+.timer{
+
+    font-size: 53px;
+    background-color: black;
+    color: rebeccapurple;
+    padding: 2px 40px ;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #ccc;;
+    outline: none;;
+}
+.timer:hover{
+    background-color: rgba(255, 255, 255, 0.272);
+    color: black;
+
+}
+.card-button{
+    margin-top: 20px;
+}
+form{
+    display: inline-block;
+}
+#Clean{
+    font-size: 32px;
+    padding: 5px 20px;
+    color: red;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+#Clean:hover{
+    background-color:rgba(255, 0, 0, 0.495) ;
+    color: white;
+}
+#Clean:active{
+    transform: scale(0.9);
+}
+#update{
+    font-size: 32px;
+    padding: 5px 20px;
+    color: blue;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid blue;
+    transition: 0.3s;
+    margin: 0 50px;
+}
+#update:hover{
+    background-color: rgba(0, 0, 255, 0.589);
+    color: white;;
+    
+}
+#update:active{
+    transform: scale(0.9);
+}
+#start{
+    font-size: 32px;
+    padding: 5px 20px;
+    color: aqua;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid aqua;
+    transition: 0.3s;
+}
+
+#start:hover{
+    background-color: rgba(0, 255, 255, 0.52);
+    color: whitesmoke;
+}
+#start:active{
+    transform: scale(0.9);
+}
+
+
+
+
+
+.card-buut{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;;
+    margin-left: 370px;
+    padding: 30px 0;
+}
+.card-buut__span__title2{
+    color: white;
+    font-size: 33px;
+}
+.card-buut__span-title{
+    color: rgb(211, 248, 0);
+    font-size: 23px;    
+    border: 1px solid white;
+    text-align: center; 
+    border-radius: 10pc;
+    display: inline-block;
+    padding: 10px ;
+    width: 30px;
+}
+#card-buut__span-but1{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but1:active{
+    transform: scale(0.9);
+}
+#card-buut__span-but2{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but2:active{
+    transform: scale(0.9);
+}
+#card-buut__span-but3{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but3:active{
+    transform: scale(0.9);
+}
+#card-buut__span-but4{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but4:active{
+    transform: scale(0.9);
+}
+#card-buut__span-but5{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but5:active{
+    transform: scale(0.9);
+}
+#card-buut__span-but6{
+    background-color: rgba(52, 48, 48, 0.448);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition: 0.1s;
+    border: 1px solid #ccc;
+}
+#card-buut__span-but6:active{
+    transform: scale(0.9);
+}
+.card-buut__span-plus{
+    font-size: 23px;
+    color: white;   
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid white;
+    width: 530px;
+    height: 30px;
+    padding: 30px 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.list__item{
+    color: red;
+    font-size: 73px;
+    text-align: center;
+}
+
+.editCardP{
+    display: flex;
+    align-items: center;
+}
+.itemCard{
+    color: whitesmoke;
+    font-size: 33px;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    border-top: 10px;
+    padding-bottom: 4px;
+    margin: 0 auto;;
+}
